@@ -1,0 +1,25 @@
+{
+  "name": "projectSetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "requirejs": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/KrupeshLL/projectSetup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/KrupeshLL/projectSetup/issues"
+  },
+  "homepage": "https://gitlab.com/KrupeshLL/projectSetup#README"
+}
