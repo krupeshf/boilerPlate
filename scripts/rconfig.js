@@ -15,7 +15,7 @@ require.config({
         "transitions": "../lib/durandal/transitions",
         "text": "../lib/require/text",
 
-        "setup": "./setup"
+        "setup": "../boilerPlate/scripts/setup"
     }
 });
 console.debug("require config done");
