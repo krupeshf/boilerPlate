@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Krupesh</title>
+
+    <!--bootstrap-->
+    <link rel="stylesheet" type="text/css" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/bootstrap-theme.min.css">
+
+    <!--durandal for framework-->
+    <link rel="stylesheet" type="text/css" href="/styles/durandal.css">
+
+    <!--font awesome for icons-->
+    <link rel="stylesheet" type="text/css" href="/styles/font-awesome.min.css">
+
+    <!-- my own stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+
+    <!--to require modules-->
+    <script src="/lib/require/require.2.2.0.min.js"></script>
+    <script src="/scripts/rconfig.js"></script>
+</head>
+
+<body>
+
+    <script>
+        require(["setup"]);
+    </script>
+
+    <!-- durandal needs a div with this id: http://stackoverflow.com/a/35836522-->
+    <div id="applicationHost">
+    </div>
+
+</body>
+
+</html>
