@@ -1,6 +1,6 @@
 require.config({
     "urlArgs": "v=0.0.1",
-    "baseUrl": "/scripts/",
+    "baseUrl": "/boilerPlate/scripts/",
     "paths": {
         "lib": "../lib/",
 
@@ -15,7 +15,7 @@ require.config({
         "transitions": "../lib/durandal/transitions",
         "text": "../lib/require/text",
 
-        "setup": "../boilerPlate/scripts/setup"
+        "setup": "setup"
     }
 });
 console.debug("require config done");
