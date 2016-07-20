@@ -5,8 +5,3 @@
 node_modules/
 
 *.d.ts
-
-#ignored js files
-scripts/app_shell.js
-scripts/home.js
-scripts/utils.js
