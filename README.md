@@ -11,11 +11,18 @@ This is SPA project using<br />
 * TYPESCRIPT (Statically typed JavaScript)
 
 ### Install ###
+Install all npm packages using `package.json`
 ```
 npm install
 ```
 
 ### Usage ###
+First compile all typescript files using the make file
+```
+make
+```
+
+Secondly start a small http-server so run the project
 ```
 http-server -p <port_number>
 ```
