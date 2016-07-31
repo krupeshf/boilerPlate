@@ -1,3 +1,5 @@
+/// <reference path="../lib/lodash/lodash.d.ts"/>
+
 declare var require: any;
 
 import u = require("lodash");
